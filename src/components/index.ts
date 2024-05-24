@@ -8,6 +8,7 @@ import { UserNameBtn } from "./UserNameBtn";
 import { MenuBars } from "./MenuBars";
 import { FollowBtn } from "./FollowBtn";
 import { MessageBox } from "./MessageBox";
+import { NotificationBox } from "./NotificationBox";
 
 export {
   MainButton,
@@ -20,4 +21,5 @@ export {
   MenuBars,
   FollowBtn,
   MessageBox,
+  NotificationBox,
 };

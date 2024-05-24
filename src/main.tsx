@@ -14,6 +14,7 @@ import Menu from "./pages/Menu.tsx";
 import { Friends } from "./pages/Friends.tsx";
 import { Message } from "./pages/Message.tsx";
 import { Profile } from "./pages/Profile.tsx";
+import { Notification } from "./pages/Notification.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,7 +23,7 @@ const router = createBrowserRouter(
       <Route path="/signin" element={<Signin />} />
       <Route path="/menu" element={<Menu />} />
       <Route path="/profile" element={<Profile />} />
-      <Route path="/notification" element={<div>Notification</div>} />
+      <Route path="/notification" element={<Notification />} />
       <Route path="/friends" element={<Friends />} />
       <Route path="/messages" element={<Message />} />
     </Route>
