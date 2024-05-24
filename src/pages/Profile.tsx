@@ -187,8 +187,8 @@ export const Profile = () => {
       </div>
       <div className="p-10 flex items-center justify-center gap-3">
         <img src="p-7.jpg" alt="" className="w-44 h-52" />
-        <img src="p-7.jpg" alt="" className="w-44" />
-        <img src="p-7.jpg" alt="" className="w-44" />
+        <img src="tom-0.png" alt="" className="w-44 h-52" />
+        <img src="p-7.jpg" alt="" className="w-44 h-52" />
       </div>
     </>
   );
