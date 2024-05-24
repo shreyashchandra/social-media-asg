@@ -8,8 +8,8 @@ const Onboard = () => {
   };
   return (
     <>
-      <div className="md:p-5 w-full flex flex-col md:flex-row items-center justify-center">
-        <div className="w-full md:w-1/2  flex justify-center items-center ">
+      <div className="md:p-5 w-full flex flex-col lg:flex-row items-center justify-center">
+        <div className="w-full  md:w-1/2 flex justify-center items-center ">
           <img
             src="./hero-s.png"
             alt="heroimg"
@@ -17,7 +17,7 @@ const Onboard = () => {
           />
         </div>
         <div className=" mx-auto flex flex-col items-center justify-center mt-20">
-          <h1 className="text-5xl font-semibold flex flex-col lg:flex-row items-center justify-center leading-snug">
+          <h1 className="text-5xl font-semibold flex flex-col  items-center justify-center leading-snug">
             Let's connect <span>with each other</span>
           </h1>
           <p className="text-gray-500  p-4 mx-5 flex flex-col items-center justify-center mb-3">
