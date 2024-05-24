@@ -74,7 +74,7 @@ function Notification() {
           </button>
         </div>
 
-        <div className="p-4">
+        <div className="p-4 flex flex-col gap-3 ">
           <NotificationBox
             name="Jenefer"
             img="p6.jpg"
