@@ -6,6 +6,7 @@ export const Profile = () => {
   const btnHandler = () => {
     navigate("/menu");
   };
+
   return (
     <>
       <div className="w-full shadow-sm shadow-gray-200">
@@ -183,6 +184,11 @@ export const Profile = () => {
             </svg>
           </div>
         </div>
+      </div>
+      <div className="p-10 flex items-center justify-center gap-3">
+        <img src="p-7.jpg" alt="" className="w-44 h-52" />
+        <img src="p-7.jpg" alt="" className="w-44" />
+        <img src="p-7.jpg" alt="" className="w-44" />
       </div>
     </>
   );
